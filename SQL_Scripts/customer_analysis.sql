@@ -1,5 +1,3 @@
-USE Banking_data
-
 SELECT a.UNI_KEY [ Customer KEY ],
        a.ID [ Customer ID ],
        CONCAT(a.F_NAME_ENG,' ', a.L_NAME_ENG)  [ Full Name ],
